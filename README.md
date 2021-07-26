@@ -1,2 +1,2 @@
-# AnnaKorobova1989.gitgub.io
+# AnnaKorobova1989.github.io
 Акселератор HTML Academy
