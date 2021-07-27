@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rockster</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="main-menu">
+      <div class="main-menu__logo">
+        <img src="img/logo.svg" alt="Rockster" width="46" height="46">
+      </div>
+      <ul class="main-menu__list">
+        <li class="main-menu__item"><a class="main-menu__link" href="">
+          <img src="img/dashboard.svg" alt="dashboard" width="48" height="48">
+          <h3 class="main-menu__item-header">Dashboard</h3></a>
+        </li>
+        <li class="main-menu__item"><a class="main-menu__link" href="">
+          <img src="img/cart.svg" alt="cart" width="48" height="48">
+          <h3 class="main-menu__item-header">E-Commerce</h3></a>
+        </li>
+        <li class="main-menu__item"><a class="main-menu__link" href="">
+          <img src="img/calendar.svg" alt="calendar" width="48" height="48">
+          <h3 class="main-menu__item-header">Calendar</h3></a></li>
+        <li class="main-menu__item main-menu__item--notification"><a class="main-menu__link" href="">
+          <img src="img/mail.svg" alt="mail" width="48" height="48">
+          <h3 class="main-menu__item-header">Mail</h3></a></li>
+        <li class="main-menu__item"><a class="main-menu__link main-menu__link--active" href="">
+          <img src="img/chat.svg" alt="chat" width="48" height="48">
+          <h3 class="main-menu__item-header">Chat</h3></a></li>
+        <li class="main-menu__item"><a class="main-menu__link" href="">
+          <img src="img/tasks.svg" alt="tasks" width="48" height="48">
+          <h3 class="main-menu__item-header">Tasks</h3></a></li>
+      </ul>
+      <div class="main-menu__load-more">
+        <button class="main-menu__load-more-button" type="button">
+          <img src="img/loadmore.svg" alt="load more">
+        </button>
+      </div>
+    </div>
+
+    <div class="chats">
+      <div class="chats__search">
+        <input class="chats__input" placeholder="Search...">
+      </div>
+      <div class="chats-teams">
+        <div class="chats-teams__header">
+          <h2 class="chats-teams__title">Teams</h2>
+          <button class="chats-teams__add" type="button">
+            <img src="img/plus.svg" alt="add button" width="20" height="20">
+          </button>
+        </div>
+        <ul class="chats-teams__list">
+          <li class="chats-teams__item">
+            <div class="chats-teams__item-avatar">
+              <img src="img/user.svg" alt="usericon" width="52" height="52">
+            </div>
+            <div class="chats-teams__item-content">
+              <h3 class="chats-teams__item-title">#Managers</h3>
+              <p class="chats-teams__item-text">Hello, Mark! I am writing to in...</p>
+            </div>
+          </li>
+          <li class="chats-teams__item">
+            <div class="chats-teams__item-avatar chats-teams__item-avatar--online">
+              <img src="img/user-2.svg" alt="usericon" width="52" height="52">
+            </div>
+            <div class="chats-teams__item-content chats-teams__item-content--notification">
+              <h3 class="chats-teams__item-title">#Designers</h3>
+              <p class="chats-teams__item-text">Hello. Can you drop the phot...</p>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+      <div class="chats-people">
+        <div class="chats-people__header">
+          <h2 class="chats-people__title">People</h2>
+          <button class="chats-people__add" type="button">
+            <img src="img/plus.svg" alt="add button">
+          </button>
+        </div>
+        <ul class="chats-people__list">
+          <li class="chats-people__item">
+            <div class="chats-people__item-avatar">
+              <img src="img/user-3.svg" alt="usericon" width="52" height="52">
+            </div>
+            <div class="chats-people__item-content">
+              <h3 class="chats-people__item-title">Dustin Williamson</h3>
+              <p class="chats-people__item-text">Hello, Mark! I am writing to in...</p>
+            </div>
+          </li>
+          <li class="chats-people__item">
+            <div class="chats-people__item-avatar">
+              <img src="img/user-4.svg" alt="usericon" width="52" height="52">
+            </div>
+            <div class="chats-people__item-content chats-people__item-content--notification">
+              <h3 class="chats-people__item-title">Jane Wilson</h3>
+              <p class="chats-people__item-text">We use the Arts as a means...</p>
+            </div>
+          </li>
+          <li class="chats-people__item">
+            <div class="chats-people__item-avatar chats-people__item-avatar--online">
+              <img src="img/user-5.svg" alt="usericon" width="52" height="52">
+            </div>
+            <div class="chats-people__item-content">
+              <h3 class="chats-people__item-title">Regina Cooper</h3>
+              <p class="chats-people__item-text">The Arts play a large role in...</p>
+            </div>
+          </li>
+          <li class="chats-people__item">
+            <div class="chats-people__item-avatar chats-people__item-avatar--online">
+              <img src="img/user-6.svg" alt="usericon" width="52" height="52">
+            </div>
+            <div class="chats-people__item-content">
+              <h3 class="chats-people__item-title">Brandon Pena</h3>
+              <p class="chats-people__item-text">The arts allow us to be as sp..</p>
+            </div>
+          </li>
+          <li class="chats-people__item">
+            <div class="chats-people__item-avatar">
+              <img src="img/user-7.svg" alt="usericon" width="52" height="52">
+            </div>
+            <div class="chats-people__item-content">
+              <h3 class="chats-people__item-title">Jacob Hawkins</h3>
+              <p class="chats-people__item-text">From dance and music to a...</p>
+            </div>
+          </li>
+          <li class="chats-people__item">
+            <div class="chats-people__item-avatar">
+              <img src="img/user-8.svg" alt="usericon" width="52" height="52">
+            </div>
+            <div class="chats-people__item-content">
+              <h3 class="chats-people__item-title">Shane Black</h3>
+              <p class="chats-people__item-text">The arts teach us how to co...</p>
+            </div>
+          </li>
+          <li class="chats-people__item">
+            <div class="chats-people__item-avatar chats-people__item-avatar--online">
+              <img src="img/user-5.svg" alt="usericon" width="52" height="52">
+            </div>
+            <div class="chats-people__item-content">
+              <h3 class="chats-people__item-title">Priscilla Edwards</h3>
+              <p class="chats-people__item-text">Concept of life is shown thro...</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="messages">
+      <div class="messages__wrapper">
+        <div class="messages__header">
+          <div class="messages__header-container">
+            <div class="messages__header-picture">
+              <img src="img/user-4.svg" alt="usericon" width="52" height="52">
+            </div>
+            <h2 class="messages__header-title">Jane Wilson</h2>
+          </div>
+          <div class="massages__header-buttons">
+            <button class="massages__header-button" type="button">
+              <img src="img/plus.svg" alt="add button" width="22" height="22">
+            </button>
+            <button class="massages__header-button" type="button">
+              <img src="img/more.svg" alt="more button" width="22" height="22">
+            </button>
+            <button class="burger-menu" type="button"><span></span></button>
+          </div>
+        </div>
+        <div class="messages__container">
+          <div class="messages__companion">
+            <div class="messages__companion-avatar">
+              <img src="img/User-4.svg" alt="usericon" width="52" height="52">
+            </div>
+            <div class="messages__companion-message">
+              <p class="messages__companion-text">Hi Cody, any progress on the project?&#128521;</p>
+            </div>
+            <button class="messages__companion-editing" type="button"><img src="img/more.svg" alt="edition botton"></button>
+          </div>
+          <div class="messages__my">
+            <div class="messages__my-wrapper">
+              <button class="messages__my-editing" type="button"><img src="img/more.svg" alt="more button"></button>
+              <div class="messages__my-avatar">
+                <img src="img/User-8.svg" alt="usericon" width="52" height="52">
+              </div>
+              <div class="messages__my-message">
+                <p class="messages__my-text">Hi Jane! <br> Yes. I just finished developing the "Chat" template.</p>
+              </div>
+            </div>
+            <div class="messages__attachments">
+              <img class="messages__attachments-img" src="img/attachment.jpg" alt="" width="70" height="70">
+              <img class="messages__attachments-img" src="img/attachment-2.jpg" alt="" width="70" height="70">
+              <img class="messages__attachments-img" src="img/attachment-3.jpg" alt="" width="70" height="70">
+              <button class="messages__load-more">+3</button>
+            </div>
+          </div>
+          <div class="messages__companion">
+            <div class="messages__companion-avatar">
+              <img src="img/User-4.svg" alt="usericon" width="52" height="52">
+            </div>
+            <div class="messages__companion-message">
+              <p class="messages__companion-text">It looks amazing. &#128513; <br>
+                The customer will be very satisfied.</p>
+            </div>
+            <button class="messages__companion-editing"><img src="img/more.svg" alt="more button"></button>
+          </div>
+          <div class="messages__my">
+            <div class="messages__my-wrapper">
+              <button class="messages__my-editing" type="button"><img src="img/more.svg" alt="more button"></button>
+              <div class="messages__my-avatar">
+                <img src="img/User-8.svg" alt="user icon" width="52" height="52">
+              </div>
+              <div class="messages__my-message">
+                <p class="messages__my-text">Thank you, glad you liked it. <br>
+                  Send me Styles Guide.</p>
+              </div>
+            </div>
+          </div>
+          <div class="massages__date">
+            <span>Today</span>
+        </div>
+          <div class="messages__companion">
+            <div class="messages__companion-avatar">
+              <img src="img/User-4.svg" alt="user icon" width="52" height="52">
+            </div>
+            <div class="messages__companion-send">
+              <div class="messages__download-file">Brand Style Guide.pdf<p class="messages__download-kb">487 kb</p></div>
+              <div class="messages__download-name">Download</div>
+            </div>
+            <button class="messages__companion-editing"><img src="img/more.svg" alt="more button"></button>
+          </div>
+          <div class="messages__my">
+            <div class="messages__my-wrapper">
+              <button class="messages__my-editing" type="button"><img src="img/more.svg" alt="more button"></button>
+              <div class="messages__my-avatar">
+                <img src="img/User-8.svg" alt="user icon" width="52" height="52">
+              </div>
+              <div class="messages__my-message">
+                <p class="messages__my-text">I'll see later</p>
+              </div>
+            </div>
+          </div>
+          <div></div>
+        </div>
+      </div>
+      <div class="messages__type-message">
+        <div class="messages__buttons">
+          <button class="messages__attachment-button" type="button">
+            <img src="img/attachment.svg" alt="attachment button" width="22" height="22">
+          </button>
+          <button class="messages__smiles-button" type="button">
+            <img src="img/smile.svg" alt="smile button">
+          </button>
+        </div>
+        <input class="massage__input-message" type="text" placeholder="Type a message here...">
+        <button class="messages__send-button" type="button">
+          <img src="img/send.svg" alt="send button" width="26" height="26">
+        </button>
+      </div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
